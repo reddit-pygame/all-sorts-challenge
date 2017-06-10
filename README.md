@@ -6,7 +6,17 @@ This challenge focuses on displaying dynamically sorted information.
 
 Write an app that allows the user to sort information "on the fly". The challenge [repo](https://github.com/reddit-pygame/all-sorts-challenge) contains nations_info.json, a JSON file of statistical information (happiness, economic growth, debt, etc.)
  for most of the countries of the world. Your app should display this information and allow the user to sort it by each statistic - i.e.,
- sorting by debt would place the U.S. at the top of the list. The repo also includes a simple app template or feel free to implement your own.
+ sorting by debt would place the U.S. at the top of the list. The json file has the following format
+
+"Country Name": {
+        "gdp": Gross Domestic Product (millions),
+        "gdp growth": GDP growth (percentage),
+        "debt": external debt (millions),
+        "population": population,
+        "pop growth": population growth (percentage)}
+        
+Statistics are mostly 2015 figures. The repo also includes a simple app template or feel free to implement your own.
+ 
  
 #Achievements
 
